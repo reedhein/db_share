@@ -9,6 +9,7 @@ module DB
     property :object_type, String, length: 255
     property :complete, Boolean, default: false
     property :attachment_migration_complete, Boolean, default: false
+    property :kitten_migration_complete, Boolean, default: false
     property :notes_migration_complete, Boolean, default: false
     property :zoho_object_type, String, length: 255
   end
